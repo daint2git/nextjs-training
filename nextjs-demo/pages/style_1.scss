@@ -1,0 +1,17 @@
+$font-size: 50px;
+
+:root {
+  --some-color: red;
+}
+
+.root {
+  display: flex;
+}
+
+.example {
+  color: var(--some-color);
+}
+
+.example_2 {
+  font-weight: bold;
+}

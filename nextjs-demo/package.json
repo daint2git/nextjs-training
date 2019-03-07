@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "cowsay-browser": "^1.1.8",
+    "next": "^8.0.3",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "scripts": {
+    "dev": "next -p 6969",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.10",
+    "postcss-css-variables": "^0.12.0"
+  }
+}
