@@ -8,7 +8,10 @@
   "description": "",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.18.0",
     "cowsay-browser": "^1.1.8",
+    "isomorphic-unfetch": "^3.0.0",
+    "json-server": "^0.14.2",
     "next": "^8.0.3",
     "node-sass": "^4.11.0",
     "react": "^16.8.4",
@@ -17,7 +20,8 @@
   "scripts": {
     "dev": "next -p 6969",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "jsonserver": "json-server -p 8080 -w jsonserver/db.json"
   },
   "devDependencies": {
     "autoprefixer": "^9.4.10",

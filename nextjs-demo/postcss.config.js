@@ -1,7 +1,10 @@
+// module.exports = {
+//   plugins: {
+//     'postcss-css-variables': {},
+//     autoprefixer: {},
+//   },
+// }
+
 module.exports = {
-  plugins: {
-    // Illustrational
-    'postcss-css-variables': {},
-    autoprefixer: {},
-  },
+  plugins: [require('postcss-css-variables'), require('autoprefixer')],
 }
